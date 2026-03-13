@@ -1,5 +1,5 @@
 # JalanNow-Woodlands-Causeway-Traffic-AI-Classifier-Test-
- AI-powered traffic analysis for the Singapore–Johor Bahru Woodlands Causeway using live camera feeds from Singapore's [data.gov.sg](https://data.gov.sg) API and TensorFlow Keras deep learning.
+
 [ReadMe.txt](https://github.com/user-attachments/files/25971123/ReadMe.txt)
  **README.md** 
 
@@ -13,18 +13,6 @@
 Predicts **crowd density**, **crowd activity** (walking on causeway / inside checkpoint),
 and **weather impact** on travelers — all from a single traffic camera image.
 
-```
-┌──────────────────────────────────────────────────────────┐
-│                   PIPELINE OVERVIEW                      │
-│                                                          │
-│  📷 EXTRACT  →  🏷️ LABEL  →  ✅ VALIDATE  →  🧠 TRAIN  →  🔮 PREDICT  │
-│  (Step 1)      (Step 2)     (Step 3)       (Step 4)      (Step 5)   │
-│                                                          │
-│  30-min        GUI          Auto           MobileNetV2   Live API   │
-│  interval      tool         checker        transfer      → .txt     │
-│  collector                                 learning      report     │
-└──────────────────────────────────────────────────────────┘
-```
 
 **Camera Sources** ([LTA DataMall / data.gov.sg](https://lta.gov.sg)):
 | Camera ID | Location | View |
@@ -34,7 +22,6 @@ and **weather impact** on travelers — all from a single traffic camera image.
 
 **Author:** YongWei
 
----
 
 ## 📑 Table of Contents
 
@@ -51,8 +38,6 @@ and **weather impact** on travelers — all from a single traffic camera image.
 11. [Classification Labels Reference](#11--classification-labels-reference)
 12. [Technical Architecture](#12--technical-architecture)
 13. [License](#13--license)
-
----
 
 ## 1. 📋 Prerequisites
 
